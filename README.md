@@ -1,5 +1,5 @@
 # Sensor_Data_Analysis
-By utilizing this sensor dataset, built a model capable of predicting the amount of heat lost by electric motors during their normal operation.
+By utilizing this sensor dataset, built a linear regression model capable of predicting the amount of heat lost by electric motors during their normal operation.
 
 CODE: 
 ![image](https://github.com/user-attachments/assets/e82f2a15-9a2a-445a-86f1-44422f02f3ec)
