@@ -2,8 +2,7 @@
 By utilizing this sensor dataset, built a linear regression model capable of predicting the amount of heat lost by electric motors during their normal operation.
 
 CODE: 
-![image](https://github.com/user-attachments/assets/0d3bb0e0-1fe0-4d81-997d-cf4ae3dea594)
-![image](https://github.com/user-attachments/assets/c1799278-ca50-4ea1-a01b-c408b558b63c)
+![WhatsApp Image 2024-09-22 at 17 22 31_57519879](https://github.com/user-attachments/assets/93802721-fedd-4c7f-b166-89e0366bdbd9)
 
 Output:
 ![image](https://github.com/user-attachments/assets/88d6c895-4e91-4d11-86fe-f3dd4faf7fc0)
