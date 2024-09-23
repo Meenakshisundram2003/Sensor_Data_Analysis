@@ -13,46 +13,69 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 data = pd.read_csv('project motor.csv')
+
 train_size = int(len(data) * 0.8) 
+
 train_data = data[:train_size]
+
 test_data = data[train_size:]
 
 dependent_vars = ['ambient', 'coolant', 'u_d', 'u_q', 'i_q']
+
 independent_vars = ['pm', 'stator_tooth', 'stator_yoke', 'motor_speed', 'torque']
 
 X_train = train_data[independent_vars]
+
 y_train = train_data[dependent_vars]
 
 X_test = test_data[independent_vars]
+
 y_test = test_data[dependent_vars]
 
 model = LinearRegression()
+
 model.fit(X_train, y_train)
 
 coefficients = model.coef_
+
 intercepts = model.intercept_
 
 for i, dependent_var in enumerate(dependent_vars):
+
     equation = f"{dependent_var} = {intercepts[i]:.2f} "
+
     for j, independent_var in enumerate(independent_vars):
+
         equation += f"+ {coefficients[i][j]:.2f} * {independent_var} "
+
     print('Linear equation:', equation)
 
 y_pred = model.predict(X_test)
+
 mse = mean_squared_error(y_test, y_pred)*.1
+
 error_percentage = (np.sqrt(mse) / np.mean(y_test.values)) * 100
+
 print('Mean Squared Error (MSE): {:.2f}'.format(mse))
+
 fig, axes = plt.subplots(nrows=len(dependent_vars), ncols=1, figsize=(8, 4 * len(dependent_vars)))
 
-for i, dependent_var in enumerate(dependent_vars):
+for i, dependent_var in enumerate(dependent_vars):'
+
     ax = axes[i]
+    
     ax.scatter(y_test[dependent_var], y_pred[:, i])
+    
     ax.plot([y_test[dependent_var].min(), y_test[dependent_var].max()], [y_test[dependent_var].min(), y_test[dependent_var].max()], 'r--')
+    
     ax.set_xlabel('Actual Values')
+    
     ax.set_ylabel('Predicted Values')
+    
     ax.set_title(f'Linear Regression for {dependent_var}')
 
 plt.tight_layout()
+
 plt.show()
 
 Output:
