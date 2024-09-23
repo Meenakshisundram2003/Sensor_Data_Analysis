@@ -3,9 +3,13 @@ By utilizing this sensor dataset, built a linear regression model capable of pre
 
 CODE: 
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 from sklearn.linear_model import LinearRegression
+
 from sklearn.metrics import mean_squared_error
 
 data = pd.read_csv('project motor.csv')
