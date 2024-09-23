@@ -1,6 +1,8 @@
 # Sensor_Data_Analysis
 Performed data cleaning procedures, including handling missing values and normalization, using NumPy and Pandas to ensure accuracy and reliability of sensor dataset.
+
 Predicted the amount of heat lost by electric motors during their normal operation using a linear regression model and evaluated its predictive accuracy using Mean Squared Error (MSE).
+
 Created scatter plots with Matplotlib to visualize the data and model predictions, and leveraged Power BI for interactive dashboards and reports.
 
 CODE: 
