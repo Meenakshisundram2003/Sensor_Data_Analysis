@@ -6,11 +6,11 @@ Predicted the amount of heat lost by electric motors during their normal operati
 
 | Ambient | Coolant |
 |---------|---------|
-| <img src="https://github.com/user-attachments/assets/4997fb4d-3596-487c-8a44-22acf5a7e737" width="400" height="400"> | <img src="https://github.com/user-attachments/assets/10b0979b-dffc-430b-a287-2a202e470d3c" width="400" height="400"> |
+| <img src="https://github.com/user-attachments/assets/4997fb4d-3596-487c-8a44-22acf5a7e737" width="400" height="300"> | <img src="https://github.com/user-attachments/assets/10b0979b-dffc-430b-a287-2a202e470d3c" width="400" height="300"> |
 
-| u_d | u_q | i_q |
+| Direct-axis Voltage (u_d)	 | Quadrature-axis Voltage (u_q) | Quadrature-axis Current (i_q)	 |
 |-----|-----|-----|
-| <img src="https://github.com/user-attachments/assets/82a228af-b59a-47fc-84a8-c4e0304fad09" width="400" height="500"> | <img src="https://github.com/user-attachments/assets/e573c97f-1ab6-44cf-a28b-f983025e5bee" width="400" height="500"> | <img src="https://github.com/user-attachments/assets/a42d081d-0af4-4691-a86f-697198a00daf" width="400" height="500"> |
+| <img src="https://github.com/user-attachments/assets/82a228af-b59a-47fc-84a8-c4e0304fad09" width="400" height="600"> | <img src="https://github.com/user-attachments/assets/e573c97f-1ab6-44cf-a28b-f983025e5bee" width="400" height="600"> | <img src="https://github.com/user-attachments/assets/a42d081d-0af4-4691-a86f-697198a00daf" width="400" height="600"> |
 
 # Excel Dashboard 
 ## Ambient vs PM
