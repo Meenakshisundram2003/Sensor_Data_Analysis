@@ -14,11 +14,11 @@ Predicted the amount of heat lost by electric motors during their normal operati
 
 # Excel Comparison 
 ## Ambient vs PM
-<img src="https://github.com/user-attachments/assets/81ba64c7-e1e6-4c78-8b4d-35c3213564b4" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/81ba64c7-e1e6-4c78-8b4d-35c3213564b4" width="700" height="400">
 
 ## Coolant vs Motor Speed
-<img src="https://github.com/user-attachments/assets/141e6f61-8871-4b5c-b037-39bb9edbebeb" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/141e6f61-8871-4b5c-b037-39bb9edbebeb" width="700" height="400">
 
 ## Current vs Motor Speed
-<img src="https://github.com/user-attachments/assets/e473289b-12c4-4928-882c-07f375cb04c1" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/e473289b-12c4-4928-882c-07f375cb04c1" width="700" height="400">
 
