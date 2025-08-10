@@ -4,31 +4,13 @@ Predicted the amount of heat lost by electric motors during their normal operati
 
 # Plots
 
-<p>
-  <figure style="display:inline-block; margin-right:20px;">
-    <img src="https://github.com/user-attachments/assets/4997fb4d-3596-487c-8a44-22acf5a7e737" width="300">
-    <figcaption>Ambient</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin-right:20px;">
-    <img src="https://github.com/user-attachments/assets/10b0979b-dffc-430b-a287-2a202e470d3c" width="300">
-    <figcaption>Coolant</figcaption>
-  </figure>
-  <figure style="display:inline-block; margin-right:20px;">
-    <img src="https://github.com/user-attachments/assets/82a228af-b59a-47fc-84a8-c4e0304fad09" width="300">
-    <figcaption>u_d</figcaption>
-  </figure>
-</p>
-<p>
-  <figure style="display:inline-block; margin-right:20px;">
-    <img src="https://github.com/user-attachments/assets/e573c97f-1ab6-44cf-a28b-f983025e5bee" width="300">
-    <figcaption>u_q</figcaption>
-  </figure>
-  <figure style="display:inline-block;">
-    <img src="https://github.com/user-attachments/assets/a42d081d-0af4-4691-a86f-697198a00daf" width="300">
-    <figcaption>i_q</figcaption>
-  </figure>
-</p>
+| Ambient | Coolant |
+|---------|---------|
+| <img src="https://github.com/user-attachments/assets/4997fb4d-3596-487c-8a44-22acf5a7e737" width="400" height="400"> | <img src="https://github.com/user-attachments/assets/10b0979b-dffc-430b-a287-2a202e470d3c" width="400" height="400"> |
 
+| u_d | u_q | i_q |
+|-----|-----|-----|
+| <img src="https://github.com/user-attachments/assets/82a228af-b59a-47fc-84a8-c4e0304fad09" width="400" height="400"> | <img src="https://github.com/user-attachments/assets/e573c97f-1ab6-44cf-a28b-f983025e5bee" width="400" height="400"> | <img src="https://github.com/user-attachments/assets/a42d081d-0af4-4691-a86f-697198a00daf" width="400" height="400"> |
 
 # Excel Dashboard 
 ## Ambient vs PM
