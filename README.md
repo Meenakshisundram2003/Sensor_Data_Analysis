@@ -1,4 +1,4 @@
-# Electric Motor Sensor Data Analysis
+# Sensor Data Analysis
 
 ## Overview
 This project analyzes sensor data to predict the amount of heat lost by electric motors during normal operation. The pipeline includes data cleaning (handling missing values and normalization), exploratory data analysis, and predictive modeling using linear regression.
